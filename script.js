@@ -39,9 +39,46 @@ var k = false;
 	//false:
 20>19
 	//true:
-m !=== k;
+m !== k;
 
 //Logic:
+	//if statement:
+var myName = "Mehak";
+if (myName !== "Elena"){
+	console.log("Nope, that's mommy, not me!");
+}
+	//if and else statement:
+var blueColor = 8 
+if (blueColor > 5){
+	console.log("Yay! You're good at math!");
+} else{
+	console.log("Nah, you suck at math.");
+}
+
+//Functions:
+function changeName(){
+	document.getElementById('heading').innerHTML = "Bye!";
+}
+
+// 3 different funtions (part 2 of hw)
+	//function 1
+var me = prompt("choose between three options A, B, or C to get to know me");
+function meKnow(meTime){
+	if( meTime === "A"){
+		alert("I love puggies! But I don't have one...yet");
+	}else if( meTime === "B"){
+		alert("Basketball is my favorite sport...to watch");
+	}else if( meTime === "C"){
+		alert("I am a Chicago Bulls fan and a Carmelo Anthony fan");
+	}else{
+		alert("Nope, you don't get to know me.");
+	}
+}
+
+meKnow(me);
+
+	//function 2
+
 
 
 
