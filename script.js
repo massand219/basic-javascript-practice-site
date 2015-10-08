@@ -1,3 +1,4 @@
+//part 1 of hw: cheat sheet
 // Variables:
 var x = 1;
 var y = 4;
