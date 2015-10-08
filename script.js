@@ -21,6 +21,8 @@ var length = 20;
 var firstName = "Mehak";
 	//Object:
 var x = {color: "blue"};
+	//Undefined:
+var person;
 
 //Array:
 var teams = ["Bulls", "Knicks", "Warriors", "Cavs"];
@@ -29,5 +31,21 @@ var teams = ["Bulls", "Knicks", "Warriors", "Cavs"];
 var m = true;
 var k = false;
 
-//Testing and Logic:
-var m 
+//Testing:
+	//true:
+(20-10) === 10;
+	//false:
+(20-10) === "10";
+	//false:
+20>19
+	//true:
+m !=== k;
+
+//Logic:
+
+
+
+
+
+
+
