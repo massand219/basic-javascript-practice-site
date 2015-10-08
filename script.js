@@ -13,3 +13,11 @@ alert("I'm awesome!");
 var favePlayer = "Carmelo";
 var faveTeam = "Bulls";
 console.log("favePlayer + faveTeam");
+
+// Different Data Types:
+	//Number:
+var length = 20;
+	//String:
+var firstName = "Mehak";
+	//Object:
+var x = {color: "blue"};
