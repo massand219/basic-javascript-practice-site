@@ -21,3 +21,13 @@ var length = 20;
 var firstName = "Mehak";
 	//Object:
 var x = {color: "blue"};
+
+//Array:
+var teams = ["Bulls", "Knicks", "Warriors", "Cavs"];
+
+//Boolean:
+var m = true;
+var k = false;
+
+//Testing and Logic:
+var m 
