@@ -61,6 +61,7 @@ function changeName(){
 }
 
 // 3 different funtions (part 2 of hw)
+
 	//function 1
 var me = prompt("choose between three options A, B, or C to get to know me");
 function meKnow(meTime){
@@ -78,11 +79,15 @@ function meKnow(meTime){
 meKnow(me);
 
 	//function 2
+function addNumber(number1, number2){
+	return number1 + number2;
+}
 
+console.log(addNumber (8, 20));
 
+	//function 3
+function alertName(somePersonsName){
+	return console.log(somePersonsName);
+}
 
-
-
-
-
-
+alertName("Mehak");
